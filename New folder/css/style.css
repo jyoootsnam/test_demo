@@ -1,0 +1,88 @@
+* {
+  margin: 0;
+  padding: 0;
+  color: #383538 !important;
+}
+
+.box
+{
+  width: 100vw;
+  height: 100vh;
+  background-image: radial-gradient(#f0d3c1 30%, #f7e1d3 50% , #F5F4F2);
+}
+/* navbar start */
+ul
+{
+  list-style-type: none;
+  display: flex;
+  justify-content: space-around;
+  padding: 2rem;
+}
+a.navbar-brand {
+  font-size: 3rem;
+  margin : 1rem 10rem;
+}
+a.navbar-brand:hover {
+  font-size: 3rem;
+  margin : 1rem 10rem;
+}
+a {
+  font-size: 2rem;
+  text-transform: capitalize;
+}
+a:hover {
+  color: #23527c;
+  text-decoration: none !important;
+  font-size: 2rem;
+  text-transform: capitalize;
+}
+.right
+{
+  float: right !important;
+}
+ .left
+{
+ float: left !important;
+}
+
+button {
+  text-transform: capitalize !important;
+  padding: 1rem 3rem;
+  font-size: 2rem;
+  border-radius: 25px;
+  font-weight: 700 !important;
+  background: #ffffff;
+  background-image: -webkit-linear-gradient(top, #ffffff, #ffffff);
+  background-image: -moz-linear-gradient(top, #ffffff, #ffffff);
+  background-image: -ms-linear-gradient(top, #ffffff, #ffffff);
+  background-image: -o-linear-gradient(top, #ffffff, #ffffff);
+  background-image: linear-gradient(to bottom, #ffffff, #ffffff);
+  -webkit-border-radius: 29;
+  -moz-border-radius: 29;
+  border-radius: 29px;
+  -webkit-box-shadow: 0px 0px 5px #e0d9e0;
+  -moz-box-shadow: 0px 0px 5px #e0d9e0;
+  box-shadow: 0px 0px 5px #e0d9e0;
+  font-family: Arial;
+  color: #383538;
+  font-size: 26px;
+  padding: 13px 20px 10px 20px;
+  border: solid #ffffff 0px;
+  text-decoration: none;
+}
+
+button:hover {
+  background: #f78431;
+  text-decoration: none;
+}
+
+/* Navbar end */
+
+/* section start */
+.ftco-section {
+  padding: 7em 0;
+  position: relative; }
+  @media (max-width: 767.98px) {
+    .ftco-section {
+      padding: 6em 0; } }
+/* section end */
